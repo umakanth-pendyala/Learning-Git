@@ -1,0 +1,124 @@
+
+.navbar-brand img {
+  height: 35px;
+}
+
+header, header .container {
+  background: #00428a;
+}
+
+.navbar-toggler-icon {
+  background-color: red;
+  color: green;
+}
+
+#title {
+  background-color: #00428a;
+}
+
+#title .container {
+  background-color: #00428a;
+  padding: 100px 0;
+}
+
+#title h1 {
+  margin-bottom: 30px;
+  font-size: 55px;
+  color: white;
+}
+
+#title button {
+  padding: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 30px;
+  margin-right: 20px;
+  border: 2px solid white;
+}
+
+#title .first {
+  background-color: #007bff;
+  transition-duration: .4s;
+  transition-property: background-color;
+}
+
+#title .second {
+  background-color: #00428a; 
+  transition-duration: .4s;
+  transition-property: background-color;
+}
+
+#title .second:hover {
+  background-color: #007bff;;
+}
+
+#title .first:hover {
+  background-color: #00428a;
+}
+
+
+/* ----------------------- main section ------------------ */
+
+#main {
+  background-color: white;
+  padding-top: 100px;
+}
+
+#main .row {
+  margin-top: 50px;
+}
+
+#main h1 {
+  text-align: center;
+}
+
+#main .coloumn-2 {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+#main img {
+  width: 500px;
+  height: 400px;
+}
+
+#main p {
+  margin-bottom: 100px;
+}
+
+#main a {
+  border: 2px solid #007bff;
+  border-radius: 100%;
+  padding: 20px;
+  padding-top: 29px;
+  transition-property: background-color;
+  transition-duration: .4s;
+}
+
+#main i {
+  /* background-color: red; */
+  color: red;
+}
+
+#main a:hover {
+  background-color: #007bff;
+}
+
+#main a:hover > i {
+  background-color: #007bff;
+  /* background-color: white; */
+}
+
+/* 
+@media (max-width: 1000px) {
+  body {
+    text-align: center;
+  }
+} */
+
+/* background: #00428a; */
+
+/* background: #fff; */
+
+/* background: #ecf5ff; */
